@@ -2,15 +2,22 @@ GEM
   remote: https://rubygems.org/
   specs:
     coderay (1.1.2)
+    ffi (1.9.21-java)
     method_source (0.8.2)
     mustermann (1.0.2)
     pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry (0.10.4-java)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+      spoon (~> 0.0)
     pry-nav (0.2.4)
       pry (>= 0.9.10, < 0.11.0)
     puma (3.11.2)
+    puma (3.11.2-java)
     rack (2.0.4)
     rack-protection (2.0.1)
       rack
@@ -24,9 +31,12 @@ GEM
     sinatra-subdomain (0.3.0)
       sinatra
     slop (3.6.0)
+    spoon (0.0.6)
+      ffi
     tilt (2.0.8)
 
 PLATFORMS
+  java
   ruby
 
 DEPENDENCIES
