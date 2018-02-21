@@ -2,9 +2,9 @@ require_relative 'base_app'
 
 class App < BaseApp
 
-  subdomain :app do
+  subdomain :www do
     get "/" do
-      "render page for App"
+      "render page for Main Site"
     end
   end
 
