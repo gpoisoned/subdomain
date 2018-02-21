@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     coderay (1.1.2)
+    ffi (1.9.21)
     ffi (1.9.21-java)
     method_source (0.8.2)
     mustermann (1.0.2)
@@ -46,6 +47,9 @@ DEPENDENCIES
   shotgun
   sinatra (~> 2.0.0)
   sinatra-subdomain (~> 0.3.0)
+
+RUBY VERSION
+   ruby 2.3.3p0 (jruby 9.1.13.0)
 
 BUNDLED WITH
    1.16.1
